@@ -51,8 +51,9 @@
         updateBannerVisibility();
       }
 
-      var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/WebProd.loader.js";
+      var buildCode = "3716cac2-4f6c-4b58-973c-f540569a122b";
+      var buildUrl = "Build_" + buildCode;
+      var loaderUrl = buildUrl + "/Web.loader.js";
       var config = {
         dataUrl: buildUrl + "/WebProd.data",
         frameworkUrl: buildUrl + "/WebProd.framework.js",
@@ -60,7 +61,7 @@
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Tank of Money",
         productName: "Tank of Money",
-        productVersion: "v1.0.0-beta",
+        productVersion: "v1.1.0-beta",
         showBanner: unityShowBanner,
       };
 
