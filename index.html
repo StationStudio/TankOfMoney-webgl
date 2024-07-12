@@ -12,19 +12,18 @@
     <div id="unity-container" class="unity-desktop" style="width: 100%; height: 100%">
       <canvas id="unity-canvas" width=auto height=auto tabindex="-1"></canvas>
       <div id="unity-loading-bar">
-        <!-- <div id="unity-logo"></div> -->
+        <div id="game-logo" />
         <div id="unity-progress-bar-empty">
-          <div id="unity-progress-bar-full"></div>
+          <div id="unity-progress-bar-full" />
         </div>
       </div>
-      <div id="unity-warning"> </div>
+      <div id="unity-warning" />
     </div>
     <script>
       var container = document.querySelector("#unity-container");
       var canvas = document.querySelector("#unity-canvas");
       var loadingBar = document.querySelector("#unity-loading-bar");
       var progressBarFull = document.querySelector("#unity-progress-bar-full");
-      // var fullscreenButton = document.querySelector("#unity-fullscreen-button");
       var warningBanner = document.querySelector("#unity-warning");
       // Shows a temporary message banner/ribbon for a few seconds, or
       // a permanent error message on top of the canvas if type=='error'.
@@ -49,7 +48,7 @@
         }
         updateBannerVisibility();
       }
-      var buildCode = "3d0b5c34-b67a-49d6-90f8-59d3cb74eb7e";
+      var buildCode = "012390b9-9cc9-4266-ad35-1e588cb5dbf0";
       var buildUrl = "Build_" + buildCode;
       var loaderUrl = buildUrl + "/WebProd.loader.js";
       var config = {
@@ -59,7 +58,7 @@
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Tank of Money",
         productName: "Tank of Money",
-        productVersion: "v1.1.3-beta",
+        productVersion: "v1.1.4-beta",
         showBanner: unityShowBanner,
       };
       // By default, Unity keeps WebGL canvas render target size matched with
