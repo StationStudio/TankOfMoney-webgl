@@ -6,8 +6,8 @@
     <meta http-equiv="cache-control" content="max-age=0" />
     <meta http-equiv="pragma" content="no-cache" />
     <title>Tank of Money | Ganhe pontos e troque por dinheiro</title>
-    <link rel="shortcut icon" href="TemplateData_62b23bf3-823a-4615-b1b3-d5f24e275804/Favicon.ico">
-    <link rel="stylesheet" href="TemplateData_62b23bf3-823a-4615-b1b3-d5f24e275804/style.css">
+    <link rel="shortcut icon" href="TemplateData_bfb54641-ea2e-484a-b1c6-7225383405c0/Favicon.ico">
+    <link rel="stylesheet" href="TemplateData_bfb54641-ea2e-484a-b1c6-7225383405c0/style.css">
   </head>
   <body style="overflow: hidden;">
     <div id="unity-container" class="unity-desktop" style="width: 100%; height: 100%">
@@ -49,13 +49,14 @@
         }
         updateBannerVisibility();
       }
-      var buildCode = "62b23bf3-823a-4615-b1b3-d5f24e275804";
+      var buildCode = "bfb54641-ea2e-484a-b1c6-7225383405c0";
+      var web = "Web";
       var buildUrl = "Build_" + buildCode;
-      var loaderUrl = buildUrl + "/Web.loader.js";
+      var loaderUrl = buildUrl + "/" + web + ".loader.js";
       var config = {
-        dataUrl: buildUrl + "/Web.data",
-        frameworkUrl: buildUrl + "/Web.framework.js",
-        codeUrl: buildUrl + "/Web.wasm",
+        dataUrl: buildUrl + "/" + web + ".data",
+        frameworkUrl: buildUrl + "/" + web + ".framework.js",
+        codeUrl: buildUrl + "/" + web + ".wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Tank of Money",
         productName: "Tank of Money",
